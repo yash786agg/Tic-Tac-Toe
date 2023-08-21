@@ -1,0 +1,20 @@
+version: "3"
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: backend-image
+    container_name: backend-container
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/opt/assignment
+
+  frontend:
+    image: nginx:latest
+    container_name: frontend-container
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
