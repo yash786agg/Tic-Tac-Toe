@@ -18,7 +18,7 @@ docker-compose up
 
 ## Demo
 
-Go to the browser and type localhost on your browser
+Go to the browser and type **localhost** on your browser
 
 ![Tic Tac Toe](screenshots/Tic-Tac-Toe-Demo.gif)
 
