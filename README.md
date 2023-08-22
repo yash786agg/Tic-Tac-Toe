@@ -10,7 +10,7 @@ This application is built to design a simple Tic Tac Toe game application<br>bet
 
 ## Setup
 
-Before making a git clone open the source code in your code editor then open docker application in<br> your system. Once setup and docker application is up and running. Open the editor terminal and write the following command.
+After making a git clone open the source code in your code editor then open docker application in<br> your system. Once setup and docker application is up and running. Open the editor terminal and write the following command.
 
 ```xml
 docker-compose up
